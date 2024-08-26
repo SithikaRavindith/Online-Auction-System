@@ -1,0 +1,100 @@
+@import url('https://fonts.google.com/specimen/Playfair+Display');
+
+
+.Mainhedding{
+    text-align: center;
+    margin-top: 105px;
+    font-family: "poppins";
+    font-size: x-large;
+}
+body{
+    background-color: rgba(12, 9, 9, 0.281);
+}
+/* Search box */
+#searchbox{
+    margin-top: 18px;
+    width: 150px;
+    height: 32px;
+    border-radius: 25px 25px 25px 25px;
+    box-sizing: border-box;
+    background: #ffc107;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+}
+#searchblankbox{
+    margin-top: 18px;
+    width:370px;
+    height: 32px;
+    border-radius: 25px 25px 25px 25px;
+    text-align: center;
+    font-family: "poppins";
+}
+
+/******************************************  FQQ **************************************/
+.faq{
+
+    margin-left: 50px;
+    font-size: x-large;
+    margin-top: 40px;
+    background-color: #0e5403;
+    margin-right: 45%;
+    display: flex;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 25px 25px 25px 25px;
+    
+       
+}
+ul{
+    list-style-type: none;
+}
+li::before{
+    /* content: "\27A4"; */
+    color: #ffffff;
+    margin-right: 9px;
+    
+
+}
+.faqs{
+    text-decoration: none;
+    color:#ffffff;
+    line-height: 6vh;
+    font-family: "poppins"; 
+   
+}
+
+
+/***********************************Help Image ****************************************/
+.helpimageright{
+    display:flex;
+    flex-wrap: wrap;
+
+
+}
+.helpimg{
+    display: flex;
+    /* display:flexbox; */
+    transform: translate(885px, -340px);
+    flex-wrap: wrap;
+   
+}
+.need{
+    display: flexbox;
+    background-color: #0e5403;
+    color:white;
+    border-radius: 25px 25px 25px 25px;
+    align-content: baseline;
+    margin-right: 90%;
+    text-align: center;
+    font-size:x-large;
+    transform: translate(1150px, -755px);
+   
+    
+
+}
+.text{
+    font-family: "poppins";
+     
+}

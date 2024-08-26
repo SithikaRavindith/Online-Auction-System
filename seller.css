@@ -1,0 +1,60 @@
+
+.sel{
+    
+    padding-top: 80px;
+    position: relative;
+    left: 10%;
+    
+}
+#seller {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    /* width: 50%; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 70px;
+    margin-bottom: 120px;
+  }
+  
+  #seller td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  /* The even numberd rows will be assinged with this color */
+  #seller tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+  
+  #seller tr:hover {
+    background-color: #ddd;
+}
+  
+  #seller th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .supdate {
+        background-color: #555555; 
+        border: none;
+        color: white;
+        padding: 11px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 22px;
+        cursor: pointer;
+      
+  }
+
+  .supdate:hover{
+    /* font-size: 18px; */
+    transform: scale(1.05);
+    transition:0.6s;
+  }

@@ -1,0 +1,53 @@
+@import url('https://fonts.google.com/specimen/Playfair+Display');
+
+body{
+    background-color: rgba(12, 9, 9, 0.281);
+}
+/*used to center the content*/
+#form{
+    display:inline-flex;
+    align-items: center;
+    height:650px;
+    justify-content: center;
+    width: 120px;
+    font-size: 20px;
+    position:relative;
+    left:46%;
+}
+
+.fstyle{
+    border: solid;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    background-color: #E3E6F3;
+    border-color:#E3E6F3;
+    border-radius: 18px;
+}
+
+input{
+    padding: 15px 10px 15px 10px;
+    margin: 15px 10px 15px 10px;
+    
+}
+
+.submit{
+    padding: 10px 15px 10px 15px;
+    margin-top: 20px;
+    position:relative;
+    left:25%;
+    border-radius: 21px;
+    width: 115px;
+    font-size: 19px;
+    background-color: #E3E6F3;
+    cursor: pointer;
+}
+
+.submit:hover{
+	background-color:blue;
+	color:white;
+	cursor:pointer;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}

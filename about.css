@@ -1,0 +1,96 @@
+@import url('https://fonts.google.com/specimen/Playfair+Display');
+
+
+/*Styling the body*/
+
+.hero{
+    
+    
+    margin-top: 50px;
+    text-align: end;
+    font-weight: bolder;
+    font-family:"poppins"; 
+    font-size:4vh;
+    
+   
+
+    
+}
+.container h1{
+    font-size: 8vh;
+    margin-bottom: 40px;
+    margin-right: 168px;
+   
+}
+
+
+.mainpara{
+    display: flex;
+    text-align: end;
+    font-family:"poppins"; 
+    margin-top: 0;
+    margin-left: 815px;
+    margin-right: 50px;
+}
+.container2 h2{
+    margin-bottom:0;
+    font-size: 5vh;
+    text-align: end;
+    margin-right: 188px;
+   
+}
+.container2para{
+    font-family: "poppins";
+    margin-top: 0px; 
+    font-size: x-large;
+    text-align: end;
+    font-weight: bolder;
+    margin-left:815px ;
+    margin-right: 40px;
+   
+    
+}
+
+.content{
+    text-align: center;
+    margin-top: 50px;
+}
+.why{
+    
+    font-size: 5vh;
+    text-align: center;
+    background-color: #ffc107;
+    margin-top: 40px;/*20*/
+    margin-left: 350px;
+    margin-right: 350px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 25px 25px 25px 25px;
+  
+}
+.whypara{
+    font-family: "poppins";
+    font-size:larger;
+    margin-top: 12px; 
+    font-size: larger;
+    text-align: left;
+    margin-left:40px ;
+    margin-right: 40px;
+    line-height: 5vh;
+    background-color: #ffc107;
+    border-radius: 25px 25px 25px 25px;
+    padding: 15px 15px 15px 50px;
+    color: #000000;
+    
+
+}
+.image1{
+    display: flex;
+    flex-direction: row;
+    width:50%;
+    height: 30%;
+    transform: translate(10px, -820px);
+    flex-wrap: wrap;
+}
+
